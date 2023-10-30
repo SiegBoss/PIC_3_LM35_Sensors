@@ -18,4 +18,10 @@
 - .hex file
 - .cof debug file
 
+-------------------------------------------
+
+<p align="center" >
+<img width="700px" height="500px" style="margin: 10px" src="./Diagrama 3_sensores_temperaturas_LM35.png"> 
+</p>
+
 
