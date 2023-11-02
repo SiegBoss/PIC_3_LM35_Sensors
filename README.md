@@ -3,7 +3,7 @@
 Este proyecto utiliza un microcontrolador PIC16F877A para la lectura de 3 Sensores LM35 y muestra la temperatura de los 3 Sensores en la Pantalla LCD
 
 ## Componentes
-- Microcontrolador: PIC PIC16F877A
+- Microcontrolador: PIC16F877A
 - 3 Sensores LM35
 - Pantalla LCD
 
