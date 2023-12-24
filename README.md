@@ -12,7 +12,7 @@ Este proyecto utiliza un microcontrolador PIC16F877A para la lectura de 3 Sensor
 - Lenguaje de programación: C
 
 ## Archivos del Proyecto
-- Código fuente: "3_sensores_temperaturas_LM35.c"
+- Código fuente: "Reading_3_LM35_Sensors.c"
 - Archivo .hex para la programación del microcontrolador
 - Archivo .cof para depuración
 
@@ -36,7 +36,7 @@ This project uses a PIC16F877A microcontroller to read 3 LM35 sensors and displa
 - Programming language: C
 
 ## Project files
-- Source code: "3_sensores_temperaturas_LM35.c"
+- Source code: "Reading_3_LM35_Sensors.c"
 - .hex file for microcontroller programming
 - .cof file for debugging
 
