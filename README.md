@@ -47,7 +47,7 @@ This project uses a PIC16F877A microcontroller to read 3 LM35 sensors and displa
 -------------------------------
 
 <p align="center" >
-<img width="700px" height="500px" style="margin: 10px" src="./Diagrama 3_sensores_temperaturas_LM35.png"> 
+<img width="700px" height="500px" style="margin: 10px" src="./Diagram_Reading_3_LM35_Sensors.png"> 
 </p>
 
 
