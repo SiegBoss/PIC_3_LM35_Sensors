@@ -10,7 +10,7 @@
 #use fast_io(D)
 
 // Declaracion de Variables | Declaration of Variables
-float input1, input2, input3, outputAnalog1, outputAnalog2, outputAnalog3;
+float sensorReading1, sensorReading2, sensorReading3, sensorOutput1, sensorOutput2, sensorOutput3;
 
 // Programa Principal | Main Program
 void main()
@@ -31,22 +31,21 @@ void main()
     // Ciclo infinito | Infinite loop
     while (TRUE)
     {
-
         // Lectura de los sensores 1, 2 y 3 | Reading of sensors 1, 2 and 3
         set_adc_channel(0);
-        input1 = read_adc();
-        outputAnalog1 = (input1) * (500 / 1024.0);
+        sensorReading1 = read_adc();
+        sensorOutput1 = (sensorReading1) * (500 / 1024.0);
 
         set_adc_channel(1);
-        input2 = read_adc();
-        outputAnalog2 = (input2) * (500 / 1024.0);
+        sensorReading2 = read_adc();
+        sensorOutput2 = (sensorReading2) * (500 / 1024.0);
 
         set_adc_channel(3);
-        input3 = read_adc();
-        outputAnalog3 = (input3) * (500 / 1024.0);
+        sensorReading3 = read_adc();
+        sensorOutput3 = (sensorReading3) * (500 / 1024.0);
 
         // Mostrar los valores en el LCD | Show the values on the LCD
         lcd_gotoxy(1, 2);
-        printf(lcd_putc, "%3.0f   %3.0f   %3.0f", outputAnalog1, outputAnalog2, outputAnalog3);
+        printf(lcd_putc, "%3.0f   %3.0f   %3.0f", sensorOutput1, sensorOutput2, sensorOutput3);
     }
 }
